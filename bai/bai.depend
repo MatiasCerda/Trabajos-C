@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532147153 source:c:\users\matia\desktop\codigosc\bai\main.c
+	<stdio.h>
+	<stdlib.h>
+

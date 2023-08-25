@@ -1,0 +1,5 @@
+int i;
+for(i=0;i<j;i++){
+	printf("wea");
+	Pila[2];
+	}

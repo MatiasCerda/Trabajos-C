@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1560133118 source:c:\users\matia\desktop\codigosc\lab02_teoria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

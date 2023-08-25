@@ -1,0 +1,45 @@
+char *LeeArchivo(){ // Lee el archivo .txt almacenado en la carpeta
+    char *archivo = malloc(sizeof(char));
+    char *string = malloc(sizeof(char));
+    FILE *pArch = NULL;
+    int flag = 1;
+    int linea = 1;
+    char caracter;
+    while(flag){
+        printf("Ingrese el nombre del archivo de entrada: ");
+        scanf("%s",archivo);
+        pArch = fopen(archivo,"r");
+        if (!pArch){
+            printf("El archivo %s no existe o se encuentra dañado...\n\n", archivo);
+            flag = 1;
+        }else{
+            flag = 0;
+        }
+    }
+    int i=0;
+    while((caracter = fgetc(pArch)) != EOF){
+		if (caracter=='(' || caracter==')'){
+            Cinta[i].simbolo=caracter;
+            Cinta[i].linea=linea;
+            i++;
+		}
+		if (caracter=='{' || caracter=='}'){
+            Cinta[i].simbolo=caracter;
+            Cinta[i].linea=linea;
+            i++;
+		}
+		if (caracter=='[' || caracter==']'){
+            Cinta[i].simbolo=caracter;
+            Cinta[i].linea=linea;
+            i++;
+		}
+		if (caracter == '\n'){
+            linea++;
+		}
+    }
+   // printf("largo: %d\n\n", largo);
+    fclose(pArch);
+    free(pArch);
+    return i;
+
+}

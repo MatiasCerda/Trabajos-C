@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1509337964 source:c:\users\matia\desktop\programas\ahorcado\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"dibujos.h"
+	<time.h>
+
+1508983029 c:\users\matia\desktop\programas\ahorcado\dibujos.h
+

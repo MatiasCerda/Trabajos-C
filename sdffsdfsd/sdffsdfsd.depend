@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558311297 source:c:\users\matia\desktop\codigosc\sdffsdfsd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

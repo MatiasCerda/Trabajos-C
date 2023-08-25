@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1555893068 source:c:\users\diego\desktop\unab\mutantes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1556245439 source:c:\users\matia\desktop\codigosc\mutantes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
